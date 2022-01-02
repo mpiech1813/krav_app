@@ -20,4 +20,7 @@ const Admin = db.define("admin", {
   },
 });
 
+// will have to encrypt the passwords
+// may want to disable created at and updated ay columns in future
+
 module.exports = Admin;

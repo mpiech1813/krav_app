@@ -44,4 +44,6 @@ const Student = db.define("student", {
   },
 });
 
+// may want to disable created at and updated ay columns in future
+
 module.exports = Student;
