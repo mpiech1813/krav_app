@@ -9,3 +9,5 @@ adminRouter.get("/", async (req, res, next) => {
     console.log("error occured in admin router");
   }
 });
+
+module.exports = adminRouter;
