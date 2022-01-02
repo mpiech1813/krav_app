@@ -10,9 +10,6 @@ Create a db and call it: ""
 ## Game plan:
 
 1. ~~PostgreSQL~~
-
-- Add student id for easy book keeping
-
 2. Router
 
 - ~~Get all admins~~

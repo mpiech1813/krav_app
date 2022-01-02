@@ -12,6 +12,7 @@ const syncAndSeed = async () => {
     });
 
     const student1 = await Student.create({
+      studentID: 1,
       fName: "bob",
       lName: "smith",
       picture: "",
@@ -20,6 +21,7 @@ const syncAndSeed = async () => {
       booster: true,
     });
     const student2 = await Student.create({
+      studentID: 2,
       fName: "zach",
       lName: "clark",
       picture: "",
@@ -28,6 +30,7 @@ const syncAndSeed = async () => {
       booster: false,
     });
     const student3 = await Student.create({
+      studentID: 3,
       fName: "john",
       lName: "robot",
       picture: "",
