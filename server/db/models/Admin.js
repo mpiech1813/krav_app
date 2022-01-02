@@ -10,12 +10,12 @@ const Admin = db.define("admin", {
     allowNull: false,
     unique: true,
   },
-  username: {
+  userName: {
     type: DataTypes.STRING,
     allowNull: false,
     unique: true,
   },
-  passqord: {
+  password: {
     type: DataTypes.STRING,
   },
 });
