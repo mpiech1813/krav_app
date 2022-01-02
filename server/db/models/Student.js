@@ -1,4 +1,4 @@
-const { BOOLEAN, STRING, NUMBER, UUID, UUIDV4 } = require("sequelize");
+const { BOOLEAN, STRING, INTEGER, UUID, UUIDV4 } = require("sequelize");
 
 const db = require("../db");
 
@@ -11,7 +11,7 @@ const Student = db.define("student", {
     unique: true,
   },
   studentID: {
-    type: NUMBER,
+    type: INTEGER,
     // 0000 indicates that the student ID was never created
     defaultValue: 0000,
     allowNull: false,
