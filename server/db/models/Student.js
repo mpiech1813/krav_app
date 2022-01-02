@@ -1,4 +1,4 @@
-const { BOOLEAN, STRING, UUID, UUIDV4 } = require("sequellize");
+const { BOOLEAN, STRING, UUID, UUIDV4 } = require("sequelize");
 
 const db = require("../db");
 
