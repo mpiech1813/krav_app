@@ -10,13 +10,18 @@ Create a db and call it: ""
 ## Game plan:
 
 1. ~~PostgreSQL~~
+
+- Add student id for easy book keeping
+
 2. Router
 
+- ~~Get all admins~~
 - Get the admin by username
-- Get all students
+- ~~Get all students~~
 - Get all students by date
 - Get all students by date and time
 - Get single student by first and last name
+- Get single student by student id
 
 - Get the list of people that checked in
 - Compare with list from our db
