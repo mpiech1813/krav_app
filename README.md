@@ -11,8 +11,8 @@ Create a db and call it: ""
 
 1. PostgreSQL
 
-- Create Database
-- Create Models: Admin and student (guest?)
+- ~~Create Database~~
+- ~~Create Models: Admin and student (guest?)~~
 - Create Seed Data
 
 Admin Model:
