@@ -36,7 +36,7 @@ const syncAndSeed = async () => {
       booster: false,
     });
   } catch (error) {
-    console.log("error occured in sync and seed");
+    console.log("error occured in sync and seed", error);
   }
 };
 
