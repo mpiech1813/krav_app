@@ -14,7 +14,9 @@ Create a db and call it: ""
 
 - Get the admin by username
 - Get all students
-- Get single student
+- Get all students by date
+- Get all students by date and time
+- Get single student by first and last name
 
 - Get the list of people that checked in
 - Compare with list from our db
@@ -25,9 +27,11 @@ Create a db and call it: ""
 - Security...
 
 3. Create login screen
-4. Google Oauth
-5. Sheets API
-6. Encrypt admin passwords
+4. Create search screen
+5. Create results screen
+6. Google Oauth
+7. Sheets API
+8. Encrypt admin passwords
 
 ### Features to add:
 
