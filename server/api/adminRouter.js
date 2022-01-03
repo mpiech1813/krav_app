@@ -10,4 +10,15 @@ adminRouter.get("/", async (req, res, next) => {
   }
 });
 
+adminRouter.get("/:adminName", async (req, res, next) => {
+  try {
+    const adminName = req.params.adminName;
+    const admin = await Admin.findOne({ where: { userName: adminName } });
+
+    res.send(admin);
+  } catch (error) {
+    console.log("error occured in admin /:user");
+  }
+});
+
 module.exports = adminRouter;
