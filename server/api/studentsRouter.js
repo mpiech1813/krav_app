@@ -10,6 +10,19 @@ studentRouter.get("/", async (req, res, next) => {
   }
 });
 
+// Find student by first and last names
+studentRouter.get("/name", async (req, res, next) => {
+  try {
+    const name = req.body;
+    const student = await Student.findOne({
+      where: { fName: name.fName, lName: name.lName },
+    });
+  } catch (error) {
+    console.log("error occured in student get by name");
+  }
+});
+
+// Find student by student ID number
 studentRouter.get("/:id", async (req, res, next) => {
   try {
     const id = req.params.id;
