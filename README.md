@@ -17,7 +17,7 @@ Create a db and call it: ""
 - ~~Get all students~~
 - Get all students by date
 - Get all students by date and time
-- Get single student by first and last name
+- ~~Get single student by first and last name~~
 - ~~Get single student by student id~~
 
 - Get the list of people that checked in
