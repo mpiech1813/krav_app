@@ -13,7 +13,8 @@ studentRouter.get("/", async (req, res, next) => {
 studentRouter.get("/:id", async (req, res, next) => {
   try {
     const id = req.params.id;
-    res.send(id);
+    const student = await Student.findOne({ where: { studentID: id } });
+    res.send(student);
   } catch (error) {
     console.log("error occured in find by student id");
   }
