@@ -13,7 +13,7 @@ Create a db and call it: ""
 2. Router
 
 - ~~Get all admins~~
-- Get the admin by username
+- ~~Get the admin by username~~
 - ~~Get all students~~
 - Get all students by date
 - Get all students by date and time
