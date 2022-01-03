@@ -10,4 +10,11 @@ studentRouter.get("/", async (req, res, next) => {
   }
 });
 
+studentRouter.get("/:id", async (req, res, next) => {
+  try {
+  } catch (error) {
+    console.log("error occured in find by student id");
+  }
+});
+
 module.exports = studentRouter;
