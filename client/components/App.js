@@ -5,7 +5,7 @@ class App extends Component {
     return (
       <div>
         <div id='img.container'>
-          <img src='/public/bin/logo_small.jpg' alt='Logo'></img>
+          <img src='/public/bin/logo_small.jpg'></img>
         </div>
         <div>
           <button>Login</button>
