@@ -7,6 +7,7 @@ studentRouter.get("/", async (req, res, next) => {
     res.send(students);
   } catch (error) {
     console.log("error occured in student router");
+    next(error)
   }
 });
 
@@ -30,6 +31,7 @@ studentRouter.get("/:id", async (req, res, next) => {
     res.send(student);
   } catch (error) {
     console.log("error occured in find by student id");
+    next(error)
   }
 });
 
