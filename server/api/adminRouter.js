@@ -7,6 +7,7 @@ adminRouter.get("/", async (req, res, next) => {
     res.send(admins);
   } catch (error) {
     console.log("error occured in admin router");
+    next(error)
   }
 });
 
@@ -18,6 +19,7 @@ adminRouter.get("/:adminName", async (req, res, next) => {
     res.send(admin);
   } catch (error) {
     console.log("error occured in admin /:user");
+    next(error)
   }
 });
 
