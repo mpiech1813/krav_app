@@ -26,15 +26,16 @@ What should be done in case of typos?
 - Model: ID, fname, lname, picture, 1st(boolean), 2nd(boolean), booster(boolean),
 - Security...
 
----
-
-3. Create login screen
+3. ~~Create login screen~~
 
 ---
 
-4. Create search screen
-5. Create results screen
-6. Google Oauth
+4. Google Oauth
+
+---
+
+5. Create search screen
+6. Create results screen
 7. Sheets API
 8. Encrypt admin passwords
 
