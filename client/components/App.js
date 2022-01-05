@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import logo from "./public/bin/logo_small.jpg";
 
 class App extends Component {
   render() {
