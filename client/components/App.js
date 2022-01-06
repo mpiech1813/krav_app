@@ -8,12 +8,11 @@ class App extends Component {
           <img src='/public/bin/logo_small.jpg'></img>
         </div>
         <div id='middle'>
-          <button href='/api/login'>Login</button>
-          <p>OR</p>
-          {/*continue button can be replaced with just a redirect to the page displaying the data*/}
-          <button>Continue</button>
-          <p>OR GOOGLE API'S LOGIN BUTTON</p>
+          <p>Login with the account which owns sheet</p>
           <div class='g-signin2' data-onsuccess='onSignIn'></div>
+          <p>OR</p>
+          {/*continue button can be replaced with just a redirect to the page if user login data is present*/}
+          <button>Continue</button>
         </div>
       </div>
     );
