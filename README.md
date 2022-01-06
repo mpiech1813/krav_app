@@ -37,6 +37,7 @@ What should be done in case of typos?
 - Add app key from google's API
 - Instructions here : https://developers.google.com/identity/sign-in/web/sign-in
 - NavBar must include signIn/signOut
+- Use Cookies (do i need to?)
 
 ---
 
