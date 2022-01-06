@@ -35,6 +35,7 @@ What should be done in case of typos?
 
 - Create .env file
 - Add app key from google's API
+- Instructions here : https://developers.google.com/identity/sign-in/web/sign-in
 
 ---
 
