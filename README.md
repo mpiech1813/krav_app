@@ -32,6 +32,9 @@ What should be done in case of typos?
 
 4. Google Oauth
 
+- Create .env file
+- Add app key from google's API
+
 ---
 
 5. Create search screen
