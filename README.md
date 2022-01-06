@@ -5,7 +5,8 @@
 ## **Instalation**
 
 npm i and start with npm run start:dev
-Create a db and call it: ""
+Create a db and call it: "krav"
+Make sure to add .env file and fill out out properly
 
 ## Game plan:
 
