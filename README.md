@@ -38,6 +38,14 @@ What should be done in case of typos?
 - Instructions here : https://developers.google.com/identity/sign-in/web/sign-in and https://developers.google.com/identity/protocols/oauth2
 - NavBar must include signIn/signOut
 - Use Cookies (do i need to?)
+- Prof's procedure:
+- - API Routes
+- - GET /api/callback/third-party (with code)
+- - exchange code for token
+- - find out user from token
+- - return a jwt token from our app
+- - GET /api/auth with header token
+- - return user
 
 ---
 
