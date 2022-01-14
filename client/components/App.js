@@ -7,10 +7,13 @@ class App extends Component {
         <div id='img.container'>
           <img src='/public/bin/logo_small.jpg'></img>
         </div>
+        <a href='/api/login'>
+          <button>Login Button</button>
+        </a>
         <div id='middle'>
-          <button href='/api/login'>Login</button>
+          <p>Login with the account which owns sheet</p>
           <p>OR</p>
-          {/*continue button can be replaced with just a redirect to the page displaying the data*/}
+          {/*continue button can be replaced with just a redirect to the page if user login data is present*/}
           <button>Continue</button>
         </div>
       </div>

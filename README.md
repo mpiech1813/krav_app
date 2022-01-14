@@ -5,7 +5,8 @@
 ## **Instalation**
 
 npm i and start with npm run start:dev
-Create a db and call it: ""
+Create a db and call it: "krav"
+Make sure to add .env file and fill out out properly
 
 ## Game plan:
 
@@ -31,6 +32,21 @@ What should be done in case of typos?
 ---
 
 4. Google Oauth
+
+- Create .env file
+- Add app key from google's API
+
+- Instructions here: https://developers.google.com/identity/protocols/oauth2/javascript-implicit-flow#oauth-2.0-endpoints
+- NavBar must include signIn/signOut
+- Use Cookies (do i need to?)
+- Prof's procedure:
+- - API Routes
+- - GET /api/callback/third-party (with code)
+- - exchange code for token
+- - find out user from token
+- - return a jwt token from our app
+- - GET /api/auth with header token
+- - return user
 
 ---
 
