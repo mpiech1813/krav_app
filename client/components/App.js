@@ -7,6 +7,9 @@ class App extends Component {
         <div id='img.container'>
           <img src='/public/bin/logo_small.jpg'></img>
         </div>
+        <a href='/api/login'>
+          <button>Login Button</button>
+        </a>
         <div id='middle'>
           <p>Login with the account which owns sheet</p>
           <p>OR</p>
