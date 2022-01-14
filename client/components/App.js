@@ -9,7 +9,6 @@ class App extends Component {
         </div>
         <div id='middle'>
           <p>Login with the account which owns sheet</p>
-          <div className='g-signin2' data-onsuccess='onSignIn'></div>
           <p>OR</p>
           {/*continue button can be replaced with just a redirect to the page if user login data is present*/}
           <button>Continue</button>
