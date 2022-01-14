@@ -35,7 +35,8 @@ What should be done in case of typos?
 
 - Create .env file
 - Add app key from google's API
-- Instructions here : https://developers.google.com/identity/gsi/web/guides/overviewz
+
+- Instructions here: https://developers.google.com/identity/protocols/oauth2/javascript-implicit-flow#oauth-2.0-endpoints
 - NavBar must include signIn/signOut
 - Use Cookies (do i need to?)
 - Prof's procedure:
